@@ -8,7 +8,7 @@
 </p>
 
 <p align="center">
-    <i>The Speed and Performance of Amber with the lightweight Preact</i>
+    <i>The Speed and Performance of Amber with lightweight Preact</i>
 </p>
 
 <br>
