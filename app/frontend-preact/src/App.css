@@ -1,4 +1,4 @@
-#root {
+#app {
   margin-top: 60px;
   text-align: center;
   font-size: 40px;
@@ -6,12 +6,12 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-#amber-logo {
-  width: 225px;
+#preact-logo {
+  width: 200px;
+  margin-bottom: -80px;
 }
-#react-logo {
-  width: 150px;
+#amber-logo {
+  width: 55px;
   position: relative;
-  bottom: 205px;
-  margin-bottom: -100px;
+  bottom: 74px;
 }

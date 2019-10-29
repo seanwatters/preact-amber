@@ -3,8 +3,8 @@ const path = require('path');
 
 let config = {
   entry: {
-    'main.bundle.js': './frontend-react/index.js',
-    'main.bundle.css': './frontend-react/index.css'
+    'main.bundle.js': './frontend-preact/index.js',
+    'main.bundle.css': './frontend-preact/index.css'
   },
   output: {
     filename: '[name]',
