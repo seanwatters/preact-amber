@@ -1,10 +1,10 @@
 <p align="center">
-    <a href="https://amberframework.org/"><img src="https://img.shields.io/badge/using-amber_framework-black.svg" ></a>
+    <a href="https://amberframework.org/"><img src="https://img.shields.io/badge/using-amber_framework-lightgrey.svg" ></a>
     <a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/License-MIT-purple.svg" ></a>
 </p>
 
 <p align="center">
-    <i>The Speed and Performance of Amber with the features of React</i>
+    <i>The Speed and Performance of Amber with the lightweight development of Preact</i>
 </p>
 
 <br>
@@ -50,14 +50,14 @@ With this recipe, we have modularized the file structure to isolate your React f
 |- bin
 |- config
 |- db
-|- frontend-react   // React file tree structure.
+|- frontend-react   // Preact file tree structure.
     |- src
         |- assets
         |- components
             |- HelloAmber
                 |- index.css
                 |- index.js
-            |- HelloReact
+            |- HelloPreact
                 |- index.css
                 |- index.js
         |- App.css
