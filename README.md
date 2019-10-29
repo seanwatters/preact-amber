@@ -82,7 +82,7 @@ With this recipe, we have modularized the file structure to isolate your React f
     |- views
         |- layouts
         |- roots
-            |- root.slang   // Location of the root #app <div> Vue will render to.
+            |- root.slang   // Location of the root #app <div> Preact will render to.
 
 ```
 
