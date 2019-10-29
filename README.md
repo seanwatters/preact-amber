@@ -102,21 +102,11 @@ The README will be updated as soon as the generators have full functionality.
 
 ## Documentation
 
-For any questions specific to the [React](https://reactjs.org/) or [Amber](https://amberframework.org/) frameworks, please feel free to refer to their excellent documentation below:
+For any questions specific to the [Preact](https://preactjs.com/) or [Amber](https://amberframework.org/) frameworks, please feel free to refer to their excellent documentation below:
 
-* [React](https://reactjs.org/docs/getting-started.html)
+* [Preact](https://preactjs.com/guide/v10/getting-started)
 * [Amber](https://docs.amberframework.org/amber/)
 
-## DevTools
-
-When developing React applications, it is highly recommended to use the [React devtools](https://github.com/vuejs/vue-devtools). Currently only FireFox and Chrome have support for the devtools extension. Their links are provided below:
-
-* FireFox: [devtools](https://addons.mozilla.org/en-US/firefox/addon/react-devtools/)
-* Chrome: [devtools](https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi?hl=en)
-
-You can also use the standalone **react-devtools** for any enviornment:
-
-* Remote: [devtools](https://www.npmjs.com/package/react-devtools)
 
 ## License
 
