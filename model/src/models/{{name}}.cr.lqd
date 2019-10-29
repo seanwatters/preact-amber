@@ -1,0 +1,15 @@
+class {{class_name}} < Granite::Base
+  connection {{database}}
+  table {{table_name}}
+  {% for field in fields -%}
+    {% if field.type == "reference" -%}
+belongs_to :{{field.name}}
+    {% endif -%}
+  {% endfor %}
+  column id : Int64, primary: true
+  {% for field in fields -%}
+    {% if field.type != "reference" -%}
+column {{field.name}} : {{field.cr_type}}
+    {% endif -%}
+  {% endfor -%}
+end

@@ -1,0 +1,74 @@
+class {{ class_name }}Controller < ApplicationController
+  getter {{ name }} = {{ class_name }}.new
+
+  before_action do
+    only [:show, :update, :destroy] { set_{{ name }} }
+  end
+
+  def index
+    {{ name | pluralize }} = {{ class_name }}.all
+    respond_with do
+     json {{ name | pluralize }}.to_json
+    end
+  end
+
+  def show
+    respond_with do
+     json {{ name | pluralize }}.to_json
+    end
+  end
+
+  def create
+    {{ name }} = {{ class_name }}.new {{ name }}_params.validate!
+    error_msg = { "error" => "failed to create" }
+
+    if {{ name }}.save
+      respond_with do
+        json {{ name }}.to_json
+      end
+    else
+      respond_with do
+        json error_msg.to_json
+      end
+    end
+  end
+
+  def update
+    error_msg = { "error" => "failed to update" }
+
+    if {{ name }}.update(post_params.validate!)
+      respond_with do
+        json {{ name }}.to_json
+      end
+    else
+      respond_with do
+        json error_msg.to_json
+      end
+    end
+  end
+
+  def destroy
+    error_msg = { "error" => "failed to delete" }
+    if {{ name }}.destroy
+      respond_with do
+        json {{ name }}.to_json
+      end
+    else
+      respond_with do
+        json error_msg.to_json
+      end
+    end
+  end
+
+  private def {{ name }}_params
+    params.validation do
+    {% for field in visible_fields -%}
+    {{"  "}}required :{{ field.name }}{% if field.type == "reference" %}_id{% endif %} { |f| !f.nil? }
+    {% endfor -%}
+    end
+  end
+
+  private def set_{{ name }}
+    @{{ name }} = {{ class_name }}.find! params[:id]
+  end
+end
