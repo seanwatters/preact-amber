@@ -50,14 +50,14 @@ With this recipe, we have modularized the file structure to isolate your React f
 |- bin
 |- config
 |- db
-|- frontend-react   // React file tree structure.
+|- frontend-react   // Preact file tree structure.
     |- src
         |- assets
         |- components
             |- HelloAmber
                 |- index.css
                 |- index.js
-            |- HelloReact
+            |- HelloPreact
                 |- index.css
                 |- index.js
         |- App.css
