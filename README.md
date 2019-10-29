@@ -4,7 +4,7 @@
 </p>
 
 <p align="center">
-    <i>The Speed and Performance of Amber with the features of React</i>
+    <i>The Speed and Performance of Amber with the lightweight development of Preact</i>
 </p>
 
 <br>
