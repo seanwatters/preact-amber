@@ -1,4 +1,8 @@
 <p align="center">
+    <img src="https://camo.githubusercontent.com/cf97a693e2ca4e2736477c7d517a60a9cf1b6038/68747470733a2f2f7365616e776174746572732e696f2f696d616765732f7072656163742d616d6265722e706e67" alt="preact-amber" data-canonical-src="https://seanwatters.io/images/preact-amber.png" height="200">
+</p>
+
+<p align="center">
     <a href="https://amberframework.org/"><img src="https://img.shields.io/badge/using-amber_framework-lightgrey.svg" ></a>
     <a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/License-MIT-purple.svg" ></a>
 </p>
